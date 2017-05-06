@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+
+target 'exampleProject' do
+  use_frameworks!
+
+  pod 'exampleFramework', :path => "../exampleFramework"    # use local pod
+end
